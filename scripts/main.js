@@ -18,6 +18,12 @@ document.getElementById("calculate").addEventListener('click', function() {
     else if (operation == "-") {
         output = calc.subtract(input1, input2);
     }
+    else if (operation == "*") {
+        output = calc.multiply(input1, input2);
+    }
+    else if (operation == "/") {
+        output = calc.divide(input1, input2);
+    }
     else {
         output = "???";
     }
